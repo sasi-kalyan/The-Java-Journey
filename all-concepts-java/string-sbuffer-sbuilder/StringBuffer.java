@@ -9,6 +9,9 @@ public class StringBuffer {
         java.lang.StringBuffer sb = new java.lang.StringBuffer();
 
         sb.append("hello");
+
+        sb.setCharAt(0, 'C');
+
         System.out.println("capacity: "+ sb.capacity());
 
         sb.append("watching naruto a lot now a days");

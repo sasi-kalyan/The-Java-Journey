@@ -1,6 +1,6 @@
 public class StringExample {
     /*
-            String is an immutable object which cannot be modified , if we try ti change
+            String is an immutable object which cannot be modified , if we try to change
             it creates the new object in th heap.
 
             Key characteristics:
@@ -10,8 +10,8 @@ public class StringExample {
      */
 
     public static void main(String[] args) {
-        String str = "hello"; //string literal stores in String Pool
-        String obj = new String("Naruto!"); //liternal stores in string pool and objects creats in HEAP.
+        String str = "hello"; //string literal stores in String Constant Pool
+        String obj = new String("Naruto!"); //literal stores in string pool and objects creates in HEAP.
 
         //String Methods
 
@@ -30,6 +30,11 @@ public class StringExample {
         String p = "hello world";
         String psub = p.substring(5);
         System.out.println("substring 5 " + psub);
+
+        //indexOf ; finds the first occurrence of char index in the string
+        System.out.println("Index of o is: " + p.indexOf("o"));
+        //lastIndexOf; finds the last occurrence of char index in the string
+        System.out.println("last index of o is: " + p.lastIndexOf("o"));
 
         //equals method
         String a = "hello";
