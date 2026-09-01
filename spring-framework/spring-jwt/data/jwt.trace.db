@@ -1,0 +1,5 @@
+2026-09-01 12:37:35.584377+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM JUSER \000d\000a\000d\000aupdate [*]juser set role = 'USER' where id = 1"; SQL statement:
+SELECT * FROM JUSER 
+
+update juser set role = 'USER' where id = 1 [42000-240]
