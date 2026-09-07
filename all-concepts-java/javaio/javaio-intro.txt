@@ -1,0 +1,48 @@
+
+Java I/O : is a process of reading the data from the source and writing to the destination , the target would be
+file, network, socker or any source /sink
+
+Java IO primialriy handled through the streams
+
+Java IO Categeorized into 2:
+    - Byte Streams:
+        - This kind of stream is used on binary data like images, audio, pdf, video etc..
+    - Character streams:
+        - this kind of streams are used for characters related data like text, xml, json etc..
+
+
+Byte Streams:- Handles the binary data
+- InputStream
+    - FileInputStream
+    - BufferedInputStream
+    - DataInputStream
+    - ObjectInputStream
+    - BufferedArrayInputStream
+    - PipedInputStream
+
+- OutputStream
+    - FileOutputStream
+    - BufferedOutputStream
+    - DataOutputStream
+    - ObjectOutputStream
+    - BufferedArrayOutputStream
+    - PipedOutputStream
+
+Character streams:
+- Reader
+    - InputStreamReader
+    - FileReader
+    - BufferedReader
+    - StringReader
+    - CharArrayReader
+    - PipedReader
+
+- Writer
+    - OutputStreamReader
+    - FileWriter
+    - BufferedWriter
+    - PrintWriter
+    - StringWriter
+    - CharArrayWriter
+    - PipedWriter
+

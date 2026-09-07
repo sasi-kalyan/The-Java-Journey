@@ -17,6 +17,7 @@ final class Circle extends Shape{
 final  class Triangle extends Shape{
     double a,b,c;
 }
+
 non-sealed class Rectangle extends Shape{
     double l, b;
 }
