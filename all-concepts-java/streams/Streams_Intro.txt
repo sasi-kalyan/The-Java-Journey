@@ -2,6 +2,36 @@
 Stream API is the popular concept in java which introduced functional type of programming language
 we can perform the functional type operations on collections.
 
-Think as the we have the assmebly lines where data flow to processing statios one by one stage
+Think as the we have the assembly lines where data flow to processing stations one by one stage.
 
 Data source -> stream -> intermediate ops -> terminal ops -> result
+
+Real definition: stream is a data processing pipeline, where the source data undergoes into
+multiple operations without modifying the original data.
+
+We have two kinds of operations in streams:
+
+1. Intermediate Operations:
+    - which are lazy in nature, nothing executes immediately
+    filter -> filters the stream based on condition
+    map    -> transforms the stream
+    distinct -> removes the duplicates in stream
+    sorted    -> sorts the stream
+    peek     -> mainly used to debugging purpose.
+    limit  -> limits the number elements in stream
+    skip -> skips the elements specified number
+
+ Terminal operations:
+ - these are eager in nature
+
+    - forEach -> to iterate the stream
+    - collect -> to collect the stream into specific collection
+    - count -> counts the elements
+    - findFirst -> to get first element after processing
+    - findAny -> get any element with specific conditions matches
+    - anyMatch -> checks any element matches the condition
+    - allMatch -> checks all elements matching the given condition
+    - noneMatch -> its opposite of the above.
+    - min -> checks the min element
+    - max -> gives max element
+
